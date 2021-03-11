@@ -1,0 +1,115 @@
+
+.logo{
+    display: block;
+    margin:auto;
+    width:120px;
+    height:120px;
+    position: sticky;
+}
+
+.container{
+    border-radius: 10px;
+    color: snow;
+    font-weight: 700;
+    max-width: 955px;
+    background-image: url("bg.jpg");
+    margin:auto;
+    height: 90vh;
+    overflow-y: scroll;
+    border: 2px solid ;
+     position: relative;
+     margin-bottom: 5%;
+
+   
+}
+
+.message{ 
+      
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top:12px;
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: red;
+}
+.left{
+   background-color: deepskyblue;
+    float: left;
+    clear: both;
+
+
+}
+.center{
+    background-color: red;
+    float: center;
+    clear: both;
+
+}
+.right{
+    background-color: springgreen;
+     float: right;
+     clear: both;
+   
+}
+
+body {
+    display: block;
+    background-color: black;
+}
+
+
+#send-container{
+   
+    
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 975px;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+
+
+
+#messageimp{
+
+    width: 92%;
+    border-radius: 20px;
+    border: 1px solid white;
+    height:34px;
+    outline: none;  
+    /* this little madrchod outline cost us 1 2 hours*/
+     
+}
+
+
+.btn{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 1px;
+    background-color: springgreen;
+    color:black;
+    height: 54px;
+    outline: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+

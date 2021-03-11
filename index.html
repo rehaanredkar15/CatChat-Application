@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAT CHAT </title>
+
+     <script defer src="http://localhost:8080/socket.io/socket.io.js"></script>   
+     <!-- we included the server file here -->
+      <script defer src="client.js"></script>
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <nav>
+        <h2>Welcome to Cat Chat </h2>
+         <img class="logo" src="logo.jpg" alt="logo of cat">
+     </nav>
+       <div class="container">
+           
+          
+       
+       
+        <!-- now we will make our send button with form which we currently contain action 0 -->
+
+      <div class="send">
+        <form action="0" id = "send-container">
+            <input type="text" name="messageimp" id="messageimp" placeholder ="Type Your Message here">
+            <button class="btn">Send</button>
+        </form>
+      </div>
+       </div>
+</body>
+</html> 
